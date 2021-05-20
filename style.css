@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-image: url(image_real.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+}
+.main-container{
+    padding:20px 60px;
+}
+.same{
+    margin: 0;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+/* .clock-call{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+} */
+.menu-bar-container{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+}
+div ul li a{
+    text-decoration: none;
+    color: white;
+}
+div ul li{
+    padding: 0 10px;
+}
+/* .cert{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+} */
+/* .cert p{
+    background-color: green;
+    margin-left: 450px;
+} */
+.day{
+ margin: 0;
+ padding: 0;
+}
+
+.time{
+    margin-top: 0;
+    padding: 0;
+}
+button {
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 10px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;   
+}
+.btn1{
+    background-color: rgb(10, 170, 170);
+    color: white;
+}
+.btn2{
+    background-color: white;
+    color: teal;
+}
+.statement{
+    margin-top: 100px;
+}
+.cert-background{
+ position:absolute;
+ right: 60px;
+ height: 0px;
+ border-left: 25px solid transparent;
+ border-bottom: 51px solid #1ebeb1; 
+ width: 20px; 
+ padding-right: 158px; 
+}
+.cert{
+    text-align: center;
+    padding-left: 0px;
+    width: 140px;
+
+}
+/* .icons{
+
+} */
+.icons i {
+color:#1ebeb1;
+margin-left: 25px;
+background-color: white;
+align-items: center;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+
+}
+.tag i{
+    font-size: 35px;
+    color: white;
+    display: flex;
+    padding-right: 7px;
+}
+.block{
+    display:flex;
+}
+.clock-container{
+    /* padding-left: 200px; */
+    display:inline-block;
+}
+.call-container{
+    display:inline-block;
+    
+}
